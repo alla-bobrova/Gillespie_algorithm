@@ -8,7 +8,7 @@ $$\dot{x}=\displaystyle\frac{\alpha}{1+x^n}-x$$
 
 1.  Вычисление коэффициентов:
 
-    1.1 считаем кинетические коэффициенты $r_i=[\displaystyle\frac{\alpha}{1+x^n};x]$
+    1.1 считаем кинетические коэффициенты $r_i=\big[\displaystyle\frac{\alpha}{1+x^n};x\big]$
 
     $\displaystyle\frac{\alpha}{1+x^n}: \quad x\rightarrow x+1$ соотвествует образованию белка
 
@@ -33,9 +33,11 @@ $$\dot{x}=\displaystyle\frac{\alpha}{1+x^n}-x$$
     $P(x\rightarrow x-1) = \displaystyle\frac{x}{\lambda} = P_2$
 
     3.2 Генерируем случайное число $q_2\in[0,1]$ :
-    - если $ 0 \lt q_2 \leq P_1 \Rightarrow x\rightarrow x+1$
-    - если $ P_1 \lt q_2 \leq P_1+P_2 \Rightarrow x\rightarrow x-1$
+   
+   - если <span>$0 \lt q_2 \leq P_1 \Rightarrow x\rightarrow x+1$</span>
+       
+   - если <span>$P_1 \lt q_2 \leq P_1+P_2 \Rightarrow x\rightarrow x-1$</span>
 
-4. Обновляем $x$ и $t$
+5. Обновляем $x$ и $t$
 
-5. Повторяем п. 1-4
+6. Повторяем п. 1-4
